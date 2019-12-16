@@ -1,0 +1,34 @@
+{
+  "name": "storybook-react-typescript-quickstart",
+  "version": "1.0.0",
+  "description": "Storybook quickstart with react and typescript.",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanbo/storybook-react-typescript-quickstart.git"
+  },
+  "author": "Alan Bogusiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanbo/storybook-react-typescript-quickstart/issues"
+  },
+  "homepage": "https://github.com/alanbo/storybook-react-typescript-quickstart#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/runtime": "^7.6.2",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-knobs": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "@types/storybook__addon-actions": "^3.4.3",
+    "@types/storybook__addon-links": "^3.3.5",
+    "@types/storybook__react": "^4.0.2",
+    "babel-loader": "^8.0.5"
+  }
+}
